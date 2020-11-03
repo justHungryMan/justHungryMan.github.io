@@ -1,0 +1,27 @@
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+# Setup
+title:          Sungjun Lee
+baseurl:        ""
+url:            "http://justHungryMan.github.io"
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        :compressed
+
+# Build settings
+markdown:       kramdown
+
+# About
+author:
+  name:         Sungjun Lee
+  url:          http://justHungryMan.github.io/
+  email:        justHungryMan@gmail.com  
+  github:       justHungryMan
+
+# Custom vars
+version:        1.0.0
+github:
+  repo:         https://github.com/justHungryMan/justHungryMan.github.io
