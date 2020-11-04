@@ -4,7 +4,7 @@ permalink:      /:year-:month-:day/:title
 # Setup
 title:          Sungjun Lee
 baseurl:        ""
-url:            "http://justHungryMan.github.io"
+url:            "https://justHungryMan.github.io"
 
 # Assets
 sass:
