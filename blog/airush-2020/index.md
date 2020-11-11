@@ -15,11 +15,16 @@ order: 1
 # Naver AI RUSH 2020
 
 AI RUSH 는 네이버 AI 실무 전문가와 함께 프로젝트에 참여하는 [AI모델링 챌린지](https://campaign.naver.com/airush/)이며 서류 심사와 코딩테스트를 통해 100명의 참가자에 선별되면 AI 과제에 참여할 수 있어요. 7월 13일부터 7월 31일까지 Round 1을 통해 50명의 Round 2 진출자를 선발하고 8월 3일부터 8월 27일까지 Round 2를 진행했습니다. Round 1 과제는 NLP 와 Vision 과제가 나왔으며 각 과제별 상위 25명이 Round 2에 진출해요. 저는 Vision 과제에 참여하였고 6등의 성적으로 Round 2에 진출하였죠.
-<br>
-Round 2 과제는 문법 교정, Vision, 시계열, 음악추천 등 여러 주제가 주어졌는데 그 중 Vision과 2개의 음악추천 과제에 참여했어요. 이때 운이 좋게 Round 1 Vision 과제 1등의 성적을 가졌던 [soomiles](https://github.com/soomiles) 님과 팀원이 되었고 나와 아이디를 합쳐 **JustSmile** 이라는 팀명으로 참가했죠.
 
+![Round1](img/round1.jpeg)
 <br>
-최종적으로 모든 과제에서 1등을 수상하였고 그 중 내가 중심적으로 맡았던 Vision 과제에 대한 후기를 작성할게요.
+Round 2 과제는 문법 교정, Vision, 시계열, 음악추천 등 여러 주제가 주어졌는데 그 중 Vision과 2개의 음악추천 과제에 참여했어요. 이때 운이 좋게 Round 1 Vision 과제 1등의 성적을 가졌던 [soomiles](https://github.com/soomiles) 님과 팀원이 되었고 나와 아이디를 합쳐 **JustSmile** 이라는 팀명으로 참가했어요.
+
+![name](img/name.jpeg)
+<br>
+최종적으로 모든 과제에서 1등을 수상하였고 그 중 제가 중심적으로 맡았던 Vision 과제에 대한 후기를 작성할게요.
+
+![final](img/final.jpeg)
 
 # Vision : 리뷰 이미지의 자동 분류
 리뷰 이미지의 자동 분류는 네이버 쇼핑몰에 올라온 후기 이미지에 대한 분류를 하는 것이죠. 분류 클래스는 5종으로 이루어져있으며 그 중 하나는 Undefined 클래스이에요. 데이터셋의 특징으로는 `Imbalance` 한 데이터 셋이고 `Noise Label` 이 있을 수 있어요. 따라서 핵심은 Classification 을 잘하되, 어떻게 `Noise Label` 을 걸러내고 `Imbalance`한 데이터를 이용해 학습하냐 에요. 평가는 F1 score로 순위가 정해집니다. 이미지 데이터 외에 Category 에 대한 metadata 도 함께 주어지며 대분류, 중분류, 소분류, 소소분류(?)로 정해져요.
