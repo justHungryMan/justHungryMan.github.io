@@ -30,4 +30,4 @@ order: 1
 
 [작품보기](https://www.dropbox.com/sh/yte1xxq5pbsspg4/AACkg26uERffuuFPbvm2-E1-a?dl=0)
 
-[Code](https://github.com/justinpinkney/stylegan2.git)
+[Code](https://github.com/justHungryMan/stylegan2.git)
